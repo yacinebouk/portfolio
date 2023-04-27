@@ -129,6 +129,12 @@ body {
     margin: 3% 10%;
     background-color: var(--background-color);
     color: var(--text-color);
+    -webkit-user-select: none;
+    /* Safari */
+    -ms-user-select: none;
+    /* IE 10 and IE 11 */
+    user-select: none;
+    /* Standard syntax */
 }
 
 p {
@@ -209,6 +215,8 @@ header .header-right {
 
 header .header-right img {
     width: 90%;
+    border-radius: 5%;
+    box-shadow: 10px 5px 5px grey;
 }
 
 .about {
